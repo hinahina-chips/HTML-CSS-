@@ -67,10 +67,11 @@
 
 @media screen and (max-width:768px){
 
+    /*header*/
     header{
         width: 100%;
     }
-
+    /*mainレイアウト*/
     main{
         display: block;/*step-boxを縦並びにする*/
         width: 100%;
@@ -84,7 +85,11 @@
         margin-bottom: 20px;/*20pxあける*/
     }
    /*marginの相殺があるため、上下の50pxは70pxにならない*/
+
+  /*--------------------*/
+   /*footer*/
     footer{
         width: 100%;
     }
+
 }
